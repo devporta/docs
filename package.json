@@ -1,0 +1,16 @@
+{
+  "name": "devporta-docs",
+  "version": "1.0.0",
+  "description": "Devporta API documentation.",
+  "main": "index.js",
+  "repository": "https://github.com/devporta/docs.git",
+  "author": "Devporta <engineering@devporta.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "./node_modules/.bin/vuepress dev",
+    "build": "./node_modules/.bin/vuepress build"
+  },
+  "dependencies": {
+    "vuepress": "^1.0.3"
+  }
+}
