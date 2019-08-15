@@ -1,9 +1,6 @@
 title: Devporta Docs
 description: Devporta API documentation.
 ga: UA-145751066-1
-serviceWorker: 
-    updatePopup: true
-# locales:
 head:
     - link:
         - rel: icon
@@ -12,9 +9,12 @@ markdown:
     lineNumbers: true
 themeConfig:
     repo: devporta/docs
+    logo: /images/logo.png
     navbar: true
     lastUpdated: true
-    logo: /images/logo.png
+    editLinks: true
+    serviceWorker: 
+        updatePopup: true
     sidebar: 
         - /
         - /sdk
@@ -25,5 +25,5 @@ themeConfig:
               link: /
             - text: French
               link: /fr/
-        - text: Home
-          link: https://devporta.com
+        - text: Console
+          link: https://console.devporta.com
