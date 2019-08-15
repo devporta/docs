@@ -11,6 +11,8 @@
     "build": "./node_modules/.bin/vuepress build"
   },
   "dependencies": {
-    "vuepress": "^1.0.3"
+    "vuepress": "^1.0.3",
+    "vuepress-plugin-demo-code": "^0.3.5",
+    "vuepress-plugin-redirect": "^1.1.2"
   }
 }
